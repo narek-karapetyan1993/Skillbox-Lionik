@@ -28,6 +28,7 @@ img {
 }
 
 .btn {
+    display: inline-block;
     background-color: #3172b9;
     color: #fff;
     text-transform: uppercase;
@@ -37,6 +38,13 @@ img {
     line-height: 1;
     cursor: pointer;
 }
+
+.text-center {
+    text-align: center;
+}
+ 
+
+/* header */
 
 .header {
     height: 110px;
@@ -64,4 +72,97 @@ img {
 .nav-item:not(:last-child) {
     margin-right: 50px;
     
+}
+
+
+/* hero */
+
+.hero-container {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.section-hero-heading {
+    margin-bottom: 25px;
+}
+
+.section-hero-description {
+    margin-bottom: 35px;
+}
+
+.section-hero-btn-description {
+    margin-top: 15px;
+}
+
+
+/* what we do */
+
+.section-do {
+    padding-top: 220px;
+    padding-bottom: 200px;
+}
+
+.section-description {
+    margin-bottom: 30px;
+}
+
+.section-do-list {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.section-do-item {
+    flex: 1 1 25%;
+    outline: 3px solid blue;
+
+}
+
+.section-do-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+/* clients */
+
+.section-clients {
+    padding-top: 95px;
+    padding-bottom: 160px;
+} 
+
+.section-heading {
+    margin-bottom: 40px;
+}
+
+.section-clients-list {
+    display: flex;
+}
+
+.section-clients-item {
+    flex: 1 1 33.33;
+    outline: 3px solid blue;
+    padding: 30px;
+}
+
+.section-clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+.section-clients-user {
+    display: flex;
+    align-items: center;
+}
+
+.section-clients-avatar {
+    margin-right: 15px;
+    max-width: 60px;
+    border: 2px solid #86acd6;
+    border-radius: 50%;
+} 
+
+.section-clients-username {
+    margin-bottom: 10px;
 }
