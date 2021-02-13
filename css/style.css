@@ -53,9 +53,6 @@ img {
 
 .container {
   max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
 }
 
 .btn {
@@ -65,7 +62,6 @@ img {
   text-transform: uppercase;
   border-radius: 4px;
   padding: 18px 35px;
-  font-style: 12px;
   line-height: 1;
   font-size: 16px;
   font-weight: 600;
@@ -150,10 +146,6 @@ img {
   padding-bottom: 130px;
 }
 
-.hero-content {
-  max-width: 44%;
-}
-
 .section-hero-heading {
   margin-top: 0;
   margin-bottom: 30px;
@@ -207,13 +199,9 @@ img {
   display: flex;
 }
 
-.section-do-item:not(:last-child) {
-  margin-right: 30px;
-}
 
 .section-do-item {
   display: flex;
-  flex: 1 1 25%;
   flex-direction: column;
   align-items: center;
   padding: 60px 30px;
@@ -252,22 +240,8 @@ img {
   padding-bottom: 160px;
 }
 
-/* .section-clirnts-heading {   
-  margin: 0;
-  margin-bottom: 40px;
-    font-size: 36px;
-    color: rgb(65, 65, 65);
-    line-height: 0.778;
-  
-} */
-
-.section-clients-list {
-  display: flex;
-}
-
 .section-clients-item {
   margin: 0;
-  flex: 1 1 33.33%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -277,8 +251,8 @@ img {
   
 }
 
-.section-clients-item:not(:last-child) {
-  margin-right: 30px;
+.section-cllients-col {
+  display: flex;
 }
 
 .section-clients-testimonial {
@@ -332,10 +306,6 @@ img {
   
 }
 
-.section-contacts-list {
-  display: flex;
-}
-
 .section-contacts-info {
   max-width: 250px;
   font-size: 14px;
@@ -345,10 +315,6 @@ img {
 
 .section-contacts-link {
   color: #787878;
-}
-
-.section-contacts-item {
-  flex: 1 1 33.33%;
 }
 
 .section-contacts-icon {
